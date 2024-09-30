@@ -1,0 +1,26 @@
+2024-09-13T10:28:56.516+01:00  INFO 960 --- [first_project] [main] c.toure.project.FirstProjectApplication  : Starting FirstProjectApplication using Java 21.0.3 with PID 960 (D:\Projet\Spring\first_project\target\classes started by PC in D:\Projet\Spring\first_project)
+2024-09-13T10:28:56.521+01:00  INFO 960 --- [first_project] [main] c.toure.project.FirstProjectApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-09-13T10:28:57.744+01:00  INFO 960 --- [first_project] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-13T10:28:57.865+01:00  INFO 960 --- [first_project] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 106 ms. Found 14 JPA repository interfaces.
+2024-09-13T10:28:58.558+01:00  INFO 960 --- [first_project] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-13T10:28:58.577+01:00  INFO 960 --- [first_project] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-13T10:28:58.578+01:00  INFO 960 --- [first_project] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-09-13T10:28:58.672+01:00  INFO 960 --- [first_project] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-13T10:28:58.673+01:00  INFO 960 --- [first_project] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2076 ms
+2024-09-13T10:28:58.956+01:00  INFO 960 --- [first_project] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-13T10:28:59.027+01:00  INFO 960 --- [first_project] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-13T10:28:59.074+01:00  INFO 960 --- [first_project] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-13T10:28:59.456+01:00  INFO 960 --- [first_project] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-13T10:28:59.494+01:00  INFO 960 --- [first_project] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-13T10:28:59.800+01:00  INFO 960 --- [first_project] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@71f29d91
+2024-09-13T10:28:59.802+01:00  INFO 960 --- [first_project] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-13T10:28:59.846+01:00  WARN 960 --- [first_project] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-13T10:29:01.857+01:00  INFO 960 --- [first_project] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-13T10:29:02.091+01:00  INFO 960 --- [first_project] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-13T10:29:02.989+01:00  WARN 960 --- [first_project] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-13T10:29:03.107+01:00 DEBUG 960 --- [first_project] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 11 mappings in 'requestMappingHandlerMapping'
+2024-09-13T10:29:03.771+01:00 DEBUG 960 --- [first_project] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-09-13T10:29:03.842+01:00 DEBUG 960 --- [first_project] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-09-13T10:29:03.895+01:00 DEBUG 960 --- [first_project] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-09-13T10:29:04.057+01:00  INFO 960 --- [first_project] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-13T10:29:04.113+01:00  INFO 960 --- [first_project] [main] c.toure.project.FirstProjectApplication  : Started FirstProjectApplication in 8.126 seconds (process running for 9.111)
